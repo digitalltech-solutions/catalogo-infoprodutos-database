@@ -35,7 +35,7 @@ const todosInfoprodutos = [
         parcelamento: '2x de R$ 9,94 sem juros',
         cores: 'azul, preto, branco',
         formato: 'pdf, pdfs, .pdf, .pdfs',
-        categoria: 'todo, todos, ebook, ebooks, desenvolvimento pessoal, livro digital, manual eletrônico, crescimento pessoal, motivacional',
+        categoria: 'todo, tudo, todos, ebook, ebooks, desenvolvimento pessoal, livro digital, manual eletrônico, crescimento pessoal, motivacional',
         palavras_chave_livro: 'falar em público, apresentação, fala, expressão de discurso técnicas oratória eficaz, linguagem',
         pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/ebook-comunicacao-oral.html',
         secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/ebook-comunicacao-oral.html#comentarios',
@@ -44,6 +44,24 @@ const todosInfoprodutos = [
     
     {
         id: 2,
+        imagem: 'https://digitalltech-solutions.github.io/infoprodutos-imagens/capas-websites/portfolio-medico-um/mockup-website-portmedico-um.png',
+        nome: 'Portfólio Médico Website',
+        preco_atual: '49',
+        preco_atual_decimal: ',99',
+        preco_antigo: 65.00,
+        desconto_off: '23% OFF',
+        parcelamento: '1x de R$ 49,99 sem juros',
+        cores: '',
+        formato: '',
+        categoria: 'todo, tudo, todos',
+        palavras_chave_livro: '',
+        pagina_vendas: '',
+        secao_comentario: '',
+        outros: ''
+    },
+
+    {
+        id: 3,
         imagem: 'https://digitalltech-solutions.github.io/infoprodutos-imagens/capas-ebooks/ebook-disciplina-invencivel/capa-disciplina.png',
         nome: 'O Poder da Disciplina Invencível',
         preco_atual: '17',
@@ -53,8 +71,26 @@ const todosInfoprodutos = [
         parcelamento: '2x de R$ 9,00 sem juros',
         cores: 'preto, branco, vermelho',
         formato: 'pdf, pdfs, .pdf, .pdfs',
-        categoria: 'todo, todos, desenvolvimento pessoal, livro digital, manual eletrônico, ebook, ebooks, crescimento pessoal, motivacional',
+        categoria: 'todo, tudo, todos, desenvolvimento pessoal, livro digital, manual eletrônico, ebook, ebooks, crescimento pessoal, motivacional',
         palavras_chave_livro: 'autocontrole, foco, produtividade, hábitos, rotina, mentalidade vencedora, superação, metas, sucesso, força de vontade, autodisciplina, transformação de vida, mindset, motivação diária, barato',
+        pagina_vendas: '',
+        secao_comentario: '',
+        outros: ''
+    },
+
+    {
+        id: 4,
+        imagem: 'https://digitalltech-solutions.github.io/infoprodutos-imagens/capas-websites/portfolio-advogado-um/mockup-website-portadvogado.png',
+        nome: 'Portfólio Website Jurídico',
+        preco_atual: '44',
+        preco_atual_decimal: ',97',
+        preco_antigo: 50.00,
+        desconto_off: '10% OFF',
+        parcelamento: '6x de R$ 7,50 sem juros',
+        cores: '',
+        formato: '',
+        categoria: 'todo, tudo, todos',
+        palavras_chave_livro: '',
         pagina_vendas: '',
         secao_comentario: '',
         outros: ''
