@@ -121,13 +121,13 @@ function renderizarProdutos(produtos, textoBusca = '') {
                 </div>
                 <div class="configurar-divs-laterais-inline">
                     <div>
-                        <span class="configurar-preço-produto estilo-acessibilidade-dislexia estilo-texto-modo-dark"><sub>R$</sub>${destacarTexto(produto.preco_atual, textoBusca)}<sup>${destacarTexto(produto.preco_atual_decimal, textoBusca)}</sup></span>
                         <span class="estilo-preco-off-padrao">
                             <span>
                                 <del class="estilo-especifico-padrao-preco-antigo texto-padrao-dois">R$ ${produto.preco_antigo.toFixed(2).replace('.', ',')}</del> 
                                 <span class="estilo-padrao-percentual-off texto-padrao-dois">${destacarTexto(produto.desconto_off, textoBusca)}</span> 
                             </span>
                         </span>
+                        <span class="configurar-preço-produto estilo-acessibilidade-dislexia estilo-texto-modo-dark"><sub>R$</sub>${destacarTexto(produto.preco_atual, textoBusca)}<sup>${destacarTexto(produto.preco_atual_decimal, textoBusca)}</sup></span>
                         <span class="configurar-avaliacao-padrao">
                             <span>Avaliação</span> <br>
                             <a href="#">
