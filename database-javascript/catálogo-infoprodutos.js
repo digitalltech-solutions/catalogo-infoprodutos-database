@@ -55,7 +55,7 @@ const todosInfoprodutos = [
         formato: '',
         categoria: 'todo, tudo, todos',
         palavras_chave_livro: '',
-        pagina_vendas: '',
+        pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/website-portifolio-medico.html',
         secao_comentario: '',
         outros: ''
     },
