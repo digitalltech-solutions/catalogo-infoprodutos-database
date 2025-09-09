@@ -227,6 +227,14 @@ function eventoBarraPesquisaMobile() {
     });
 
     renderizarProdutos(produtosFiltrados, textoBusca);
+
+    let caixa1 = document.getElementById('caixa-dark');
+    let caixa2 = document.getElementById('caixa-dark-dois');
+
+    if(caixa1.checked == true || caixa2.checked == true){
+        eventoModoDarkDois();
+        eventoModoDark();
+    }
 }
 
 // Renderiza inicialmente todos os produtos
