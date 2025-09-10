@@ -51,12 +51,12 @@ const todosInfoprodutos = [
         preco_antigo: 65.00,
         desconto_off: '23% OFF',
         parcelamento: '1x de R$ 49,99 sem juros',
-        cores: '',
+        cores: 'preto, branco, roxo, azul escuro',
         formato: 'html, css, javascript, .html, .css, .javascript',
         categoria: 'todo, tudo, todos, websites, website, site, sites',
-        palavras_chave_livro: '',
+        palavras_chave_livro: 'medicos, medicas, medicina, clínica online, saúde',
         pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/portfolio-medico-website.html',
-        secao_comentario: '',
+        secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/portfolio-medico-website.html#comentarios',
         outros: ''
     },
 
