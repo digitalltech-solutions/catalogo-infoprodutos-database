@@ -54,7 +54,7 @@ const todosInfoprodutos = [
         cores: 'preto, branco, roxo, azul escuro',
         formato: 'html, css, javascript, .html, .css, .javascript, .toml',
         categoria: 'todo, tudo, todos, websites, website, site, sites',
-        palavras_chave_livro: 'medicos, medicas, medicina, clínica online, saúde',
+        palavras_chave_livro: 'médico, médica, médicos, médicas, medicina, clínica online, saúde',
         pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/portfolio-medico-website.html',
         secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/portfolio-medico-website.html#comentarios',
         outros: ''
