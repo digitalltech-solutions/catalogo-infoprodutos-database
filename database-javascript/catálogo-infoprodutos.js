@@ -50,7 +50,7 @@ const todosInfoprodutos = [
         preco_atual_decimal: ',99',
         preco_antigo: 65.00,
         desconto_off: '23% OFF',
-        parcelamento: '1x de R$ 49,99 sem juros',
+        parcelamento: '6x de R$ 8,34 sem juros',
         cores: 'preto, branco, roxo, azul escuro',
         formato: 'html, css, javascript, .html, .css, .javascript, .toml',
         categoria: 'todo, tudo, todos, websites, website, site, sites',
