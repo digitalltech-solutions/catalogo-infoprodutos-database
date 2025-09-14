@@ -80,7 +80,7 @@ const todosInfoprodutos = [
 
     {
         id: 4,
-        imagem: 'https://digitalltech-solutions.github.io/infoprodutos-imagens/capas-websites/portfolio-advogado-um/mockup-website-portadvogado.png',
+        imagem: 'https://digitalltech-solutions.github.io/infoprodutos-imagens/capas-websites/portfolio-advogado-um/mockup-website-juridico-um.png',
         nome: 'Portfólio Website Jurídico',
         preco_atual: '44',
         preco_atual_decimal: ',97',
