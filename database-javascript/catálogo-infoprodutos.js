@@ -70,11 +70,11 @@ const todosInfoprodutos = [
         desconto_off: '28% OFF',
         parcelamento: '2x de R$ 9,00 sem juros',
         cores: 'preto, branco, vermelho',
-        formato: 'pdf, pdfs, .pdf, .pdfs',
+        formato: '.pdfs',
         categoria: 'todo, tudo, todos, desenvolvimento pessoal, livro digital, manual eletrônico, ebook, ebooks, crescimento pessoal, motivacional',
-        palavras_chave_livro: 'autocontrole, foco, produtividade, hábitos, rotina, mentalidade vencedora, superação, metas, sucesso, força de vontade, autodisciplina, transformação de vida, mindset, motivação diária, barato',
-        pagina_vendas: '',
-        secao_comentario: '',
+        palavras_chave_livro: 'autocontrole, foco, produtividade, persistência, controle, determinação, compromissos hábitos, rotina, mentalidade vencedora, superação, metas, sucesso, força de vontade, autodisciplina, transformação de vida, mindset, motivação diária',
+        pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/ebook-disciplina.html',
+        secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/ebook-disciplina.html#comentarios',
         outros: ''
     },
 
