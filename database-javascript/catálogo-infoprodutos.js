@@ -95,6 +95,23 @@ const todosInfoprodutos = [
         secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/portfolio-juridico.html#comentarios',
         outros: ''
     },
+    {
+        id: 5,
+        imagem: 'https://digitalltech-solutions.github.io/infoprodutos-imagens/capas-websites/portfolio-advogado-um/mockup-website-juridico-um.png',
+        nome: 'Portfólio Website Jurídico',
+        preco_atual: '44',
+        preco_atual_decimal: ',97',
+        preco_antigo: 50.00,
+        desconto_off: '10% OFF',
+        parcelamento: '6x de R$ 7,50 sem juros',
+        cores: 'cinza, azul marinho, preto, branco, bege claro',
+        formato: 'Website HTML Responsivo',
+        categoria: 'todo, tudo, todos, websites, website, site, sites, advogado, advocacia, jurídico, direito, escritório, consultoria jurídica',
+        palavras_chave_livro: 'portfólio advogado, presença digital direito, marketing jurídico, vitrine profissional advocacia, site escritório, portfólio consultoria jurídica, credibilidade online advogado, modelo web advogado',
+        pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/portfolio-juridico.html',
+        secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/portfolio-juridico.html#comentarios',
+        outros: ''
+    }
 ];
 
 const containerPai = document.getElementById('secao-cards-infoprodutos');
