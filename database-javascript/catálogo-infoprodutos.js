@@ -107,7 +107,7 @@ const todosInfoprodutos = [
         cores: '',
         formato: '',
         categoria: 'tudo, todos, ebooks, desenvolvimento pessoal, livro digital, manual eletrônico, crescimento pessoal, motivacional',
-        palavras_chave_livro: 'portfólio advogado, presença digital direito, marketing jurídico, vitrine profissional advocacia, site escritório, portfólio consultoria jurídica, credibilidade online advogado, modelo web advogado',
+        palavras_chave_livro: '',
         pagina_vendas: '',
         secao_comentario: '',
         outros: ''
