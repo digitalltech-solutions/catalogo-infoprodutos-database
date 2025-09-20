@@ -97,19 +97,19 @@ const todosInfoprodutos = [
     },
     {
         id: 5,
-        imagem: 'https://digitalltech-solutions.github.io/infoprodutos-imagens/capas-websites/portfolio-advogado-um/mockup-website-juridico-um.png',
+        imagem: 'https://digitalltech-solutions.github.io/infoprodutos-imagens/capas-ebooks/ebook-aprendizagem/capa-ebook-aprendizagem-um.png',
         nome: 'Manual Completo da Aprendizagem Definitiva',
         preco_atual: '0',
         preco_atual_decimal: ',00',
         preco_antigo: 0.00,
         desconto_off: '10% OFF',
         parcelamento: 'Em breve!!!',
-        cores: 'cinza, azul marinho, preto, branco, bege claro',
-        formato: 'Website HTML Responsivo',
-        categoria: 'todo, tudo, todos, websites, website, site, sites, advogado, advocacia, jurídico, direito, escritório, consultoria jurídica',
+        cores: '',
+        formato: '',
+        categoria: 'tudo, todos',
         palavras_chave_livro: 'portfólio advogado, presença digital direito, marketing jurídico, vitrine profissional advocacia, site escritório, portfólio consultoria jurídica, credibilidade online advogado, modelo web advogado',
-        pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/portfolio-juridico.html',
-        secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/portfolio-juridico.html#comentarios',
+        pagina_vendas: '',
+        secao_comentario: '',
         outros: ''
     }
 ];
