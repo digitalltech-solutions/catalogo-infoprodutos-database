@@ -147,15 +147,15 @@ function renderizarProdutos(produtos, textoBusca = '') {
                         <span class="configurar-preço-produto estilo-acessibilidade-dislexia estilo-texto-modo-dark"><sub>R$</sub>${destacarTexto(produto.preco_atual, textoBusca)}<sup>${destacarTexto(produto.preco_atual_decimal, textoBusca)}</sup></span>
                         <span class="configurar-avaliacao-padrao">
                             <span>Avaliação</span> <br>
-                            <a href="#">
+                            <span>
                                 <span class="configurar-estrelas-avaliacao">
-                                    <span class="material-symbols-outlined texto-padrao-dois" title="Comentar Infoproduto">star_rate</span>
-                                    <span class="material-symbols-outlined texto-padrao-dois" title="Comentar Infoproduto">star_rate</span>
-                                    <span class="material-symbols-outlined texto-padrao-dois" title="Comentar Infoproduto">star_rate</span>
-                                    <span class="material-symbols-outlined texto-padrao-dois" title="Comentar Infoproduto">star_rate</span>
-                                    <span class="material-symbols-outlined texto-padrao-dois" title="Comentar Infoproduto">star_rate_half</span>
+                                    <span class="material-symbols-outlined texto-padrao-dois estilo-padrao-estrela" onclick="window.location = '${produto.secao_comentario}'" title="Comentar Infoproduto">star_rate</span>
+                                    <span class="material-symbols-outlined texto-padrao-dois estilo-padrao-estrela" onclick="window.location = '${produto.secao_comentario}'" title="Comentar Infoproduto">star_rate</span>
+                                    <span class="material-symbols-outlined texto-padrao-dois estilo-padrao-estrela" onclick="window.location = '${produto.secao_comentario}'" title="Comentar Infoproduto">star_rate</span>
+                                    <span class="material-symbols-outlined texto-padrao-dois estilo-padrao-estrela" onclick="window.location = '${produto.secao_comentario}'" title="Comentar Infoproduto">star_rate</span>
+                                    <span class="material-symbols-outlined texto-padrao-dois estilo-padrao-estrela" onclick="window.location = '${produto.secao_comentario}'" title="Comentar Infoproduto">star_rate</span>
                                 </span>
-                            </a>
+                            </span>
                         </span>
                     </div>
                     <div class="configurar-compra-agora">
