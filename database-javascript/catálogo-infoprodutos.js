@@ -102,7 +102,7 @@ const todosInfoprodutos = [
         preco_atual: '0',
         preco_atual_decimal: ',00',
         preco_antigo: 0.00,
-        desconto_off: '10% OFF',
+        desconto_off: '0% OFF',
         parcelamento: 'Em breve!!!',
         cores: '',
         formato: '',
@@ -149,11 +149,11 @@ function renderizarProdutos(produtos, textoBusca = '') {
                             <span>Avaliação</span> <br>
                             <a href="#">
                                 <span class="configurar-estrelas-avaliacao">
-                                    <span class="material-symbols-outlined texto-padrao-dois">star_rate</span>
-                                    <span class="material-symbols-outlined texto-padrao-dois">star_rate</span>
-                                    <span class="material-symbols-outlined texto-padrao-dois">star_rate</span>
-                                    <span class="material-symbols-outlined texto-padrao-dois">star_rate</span>
-                                    <span class="material-symbols-outlined texto-padrao-dois">star_rate_half</span>
+                                    <span class="material-symbols-outlined texto-padrao-dois" title="Comentar Infoproduto">star_rate</span>
+                                    <span class="material-symbols-outlined texto-padrao-dois" title="Comentar Infoproduto">star_rate</span>
+                                    <span class="material-symbols-outlined texto-padrao-dois" title="Comentar Infoproduto">star_rate</span>
+                                    <span class="material-symbols-outlined texto-padrao-dois" title="Comentar Infoproduto">star_rate</span>
+                                    <span class="material-symbols-outlined texto-padrao-dois" title="Comentar Infoproduto">star_rate_half</span>
                                 </span>
                             </a>
                         </span>
