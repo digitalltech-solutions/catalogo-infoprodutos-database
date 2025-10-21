@@ -149,20 +149,20 @@ function renderizarProdutos(produtos, textoBusca = '') {
                             <span>Avaliação</span> <br>
                             <span>
                                 <span class="configurar-estrelas-avaliacao">
-                                    <span class="material-symbols-outlined texto-padrao-dois estilo-padrao-estrela" onclick="window.location = '${produto.secao_comentario}'" title="Comentar Infoproduto">star_rate</span>
-                                    <span class="material-symbols-outlined texto-padrao-dois estilo-padrao-estrela" onclick="window.location = '${produto.secao_comentario}'" title="Comentar Infoproduto">star_rate</span>
-                                    <span class="material-symbols-outlined texto-padrao-dois estilo-padrao-estrela" onclick="window.location = '${produto.secao_comentario}'" title="Comentar Infoproduto">star_rate</span>
-                                    <span class="material-symbols-outlined texto-padrao-dois estilo-padrao-estrela" onclick="window.location = '${produto.secao_comentario}'" title="Comentar Infoproduto">star_rate</span>
-                                    <span class="material-symbols-outlined texto-padrao-dois estilo-padrao-estrela" onclick="window.location = '${produto.secao_comentario}'" title="Comentar Infoproduto">star_rate</span>
+                                    <span class="material-symbols-outlined estilo-padrao-estrela texto-padrao-dois" onclick="window.location = '${produto.secao_comentario}'" title="Comentar Infoproduto">star_rate</span>
+                                    <span class="material-symbols-outlined estilo-padrao-estrela texto-padrao-dois" onclick="window.location = '${produto.secao_comentario}'" title="Comentar Infoproduto">star_rate</span>
+                                    <span class="material-symbols-outlined estilo-padrao-estrela texto-padrao-dois" onclick="window.location = '${produto.secao_comentario}'" title="Comentar Infoproduto">star_rate</span>
+                                    <span class="material-symbols-outlined estilo-padrao-estrela texto-padrao-dois" onclick="window.location = '${produto.secao_comentario}'" title="Comentar Infoproduto">star_rate</span>
+                                    <span class="material-symbols-outlined estilo-padrao-estrela texto-padrao-dois" onclick="window.location = '${produto.secao_comentario}'" title="Comentar Infoproduto">star_rate</span>
                                 </span>
                             </span>
                         </span>
                     </div>
                     <div class="configurar-compra-agora">
                         <div id="configurar-icones-interativos">
-                            <span class="material-symbols-outlined configurar-icones-padrao estilo-botao-dark-dois" onclick="eventoModalAparente()" title="Marcar como Favorito">favorite</span>
+                            <span class="material-symbols-outlined configurar-icones-padrao estilo-botao-dark-dois" onclick="eventoModalIndisponivel()" title="Marcar como Favorito">favorite</span>
                             <span class="material-symbols-outlined configurar-icones-padrao estilo-botao-dark-dois" onclick="window.location = '${produto.secao_comentario}'" title="Comentar Sobre Esse Infoproduto">chat</span>
-                            <span class="material-symbols-outlined configurar-icones-padrao estilo-botao-dark-dois" onclick="eventoModalAparente()" title="Compartilhar">send</span>
+                            <span class="material-symbols-outlined configurar-icones-padrao estilo-botao-dark-dois" onclick="eventoModalIndisponivel()" title="Compartilhar">send</span>
                         </div>
                         <a href="${produto.pagina_vendas}" class="configuracao-padra-botao-saiba-mais">
                             <button class='elementos-fundo-borda'>Comprar</button>
