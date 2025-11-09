@@ -141,12 +141,12 @@ function renderizarProdutos(produtos, textoBusca = '') {
                         <span class="estilo-preco-off-padrao">
                             <span>
                                 <del class="estilo-especifico-padrao-preco-antigo texto-padrao-dois">R$ ${produto.preco_antigo.toFixed(2).replace('.', ',')}</del> 
-                                <span class="estilo-padrao-percentual-off texto-padrao-dois">${destacarTexto(produto.desconto_off, textoBusca)}</span> 
+                                <span class="estilo-padrao-percentual-off texto-padrao-dois estilo-acessibilidade-dislexia">${destacarTexto(produto.desconto_off, textoBusca)}</span> 
                             </span>
                         </span>
                         <span class="configurar-preço-produto estilo-acessibilidade-dislexia estilo-texto-modo-dark"><sub>R$</sub>${destacarTexto(produto.preco_atual, textoBusca)}<sup>${destacarTexto(produto.preco_atual_decimal, textoBusca)}</sup></span>
                         <span class="configurar-avaliacao-padrao">
-                            <span>Avaliação</span> <br>
+                            <span class="estilo-acessibilidade-dislexia">Avaliação</span> <br>
                             <span>
                                 <span class="configurar-estrelas-avaliacao">
                                     <span class="material-symbols-outlined estilo-padrao-estrela texto-padrao-dois" onclick="window.location = '${produto.secao_comentario}'" title="Comentar Infoproduto">star_rate</span>
@@ -207,12 +207,38 @@ function eventoBarraPesquisa() {
         window.document.getElementById('carrossel').style.display = 'flex'
     }
 
+    // Função Dark
+
     let caixa1 = document.getElementById('caixa-dark');
     let caixa2 = document.getElementById('caixa-dark-dois');
 
     if(caixa1.checked == true || caixa2.checked == true){
-        eventoModoDarkDois();
-        eventoModoDark();
+        eventoModoDarkDois()
+        eventoModoDark()
+    }
+
+    // Função Dislexia
+
+    if(window.document.getElementById('dislexia').checked == true){
+        eventoModoDislexia()
+    }
+
+    // Função Deuteranopia
+
+    if(window.document.getElementById('deuteranopia').checked == true){
+        eventoModoDeuteranopia()
+    }
+
+    // Função Tritanopia
+
+    if(window.document.getElementById('tritanopia').checked == true){
+        eventoModoTritanopia()
+    }
+
+    // Função Leitura Alta
+
+    if(window.document.getElementById('voz').checked == true){
+        eventoModoVoz()
     }
 }
 
