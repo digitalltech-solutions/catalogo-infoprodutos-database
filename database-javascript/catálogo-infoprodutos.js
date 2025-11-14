@@ -48,7 +48,7 @@ const todosInfoprodutos = [
         nome: 'Portfólio Médico Website',
         preco_atual: '49',
         preco_atual_decimal: ',99',
-        preco_antigo: 65.00,
+        preco_antigo: 55.00,
         desconto_off: '9% OFF',
         parcelamento: '6x de R$ 8,34 sem juros',
         cores: 'preto, branco, roxo, azul escuro',
