@@ -55,7 +55,7 @@ const todosInfoprodutos = [
         formato: 'html, css, javascript, .html, .css, .javascript, .toml',
         categoria: 'tudo, todos os infoprodutos, websites, website, site, sites, modelos de sites',
         palavras_chave_livro: 'médico, médica, médicos, médicas, medicina, clínica online, saúde',
-        pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/portfolio-medico-website.html',
+        pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/portfolio-medico.html',
         secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/portfolio-medico.html#comentarios',
         outros: ''
     },
