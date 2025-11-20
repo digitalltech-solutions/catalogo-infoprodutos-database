@@ -48,15 +48,15 @@ const todosInfoprodutos = [
         nome: 'Portfólio Médico Website',
         preco_atual: '49',
         preco_atual_decimal: ',99',
-        preco_antigo: 55.00,
-        desconto_off: '9% OFF',
+        preco_antigo: 65.00,
+        desconto_off: '23% OFF',
         parcelamento: '6x de R$ 8,34 sem juros',
         cores: 'preto, branco, roxo, azul escuro',
         formato: 'html, css, javascript, .html, .css, .javascript, .toml',
         categoria: 'tudo, todos os infoprodutos, websites, website, site, sites, modelos de sites',
         palavras_chave_livro: 'médico, médica, médicos, médicas, medicina, clínica online, saúde',
-        pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/portfolio-medico.html',
-        secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/portfolio-medico.html#comentarios',
+        pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/portfolio-medico-website.html',
+        secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/portfolio-medico-website.html#comentarios',
         outros: ''
     },
 
@@ -64,11 +64,11 @@ const todosInfoprodutos = [
         id: 3,
         imagem: 'https://digitalltech-solutions.github.io/infoprodutos-imagens/capas-ebooks/ebook-disciplina-invencivel/capa-disciplina.png',
         nome: 'O Poder da Disciplina Invencível',
-        preco_atual: '17',
+        preco_atual: '26',
         preco_atual_decimal: ',99',
-        preco_antigo: 25.00,
-        desconto_off: '28% OFF',
-        parcelamento: '2x de R$ 9,00 sem juros',
+        preco_antigo: 35.00,
+        desconto_off: '22% OFF',
+        parcelamento: '3x de R$ 8,99 sem juros',
         cores: 'preto, branco, vermelho',
         formato: '.pdfs',
         categoria: 'tudo, todos os infoprodutos, desenvolvimento pessoal, livro digital, manual eletrônico, ebook, ebooks, crescimento pessoal, motivacional',
@@ -161,7 +161,7 @@ function renderizarProdutos(produtos, textoBusca = '') {
                     <div class="configurar-compra-agora">
                         <div id="configurar-icones-interativos">
                             <span class="material-symbols-outlined configurar-icones-padrao estilo-botao-dark-dois" onclick="eventoModalIndisponivel()" title="Marcar como Favorito">favorite</span>
-                            <span class="material-symbols-outlined configurar-icones-padrao estilo-botao-dark-dois" onclick="window.location = '${produto.secao_comentario}'" title="Comentar Sobre Esse Infoproduto">chat</span>
+    <span class="material-symbols-outlined configurar-icones-padrao estilo-botao-dark-dois" onclick="window.location = '${produto.secao_comentario}'" title="Comentar Sobre Esse Infoproduto">chat</span>
                             <span class="material-symbols-outlined configurar-icones-padrao estilo-botao-dark-dois" onclick="eventoModalIndisponivel()" title="Compartilhar">send</span>
                         </div>
                         <a href="${produto.pagina_vendas}" class="configuracao-padra-botao-saiba-mais">
