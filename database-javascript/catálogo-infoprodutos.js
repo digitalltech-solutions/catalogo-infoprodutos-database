@@ -103,7 +103,7 @@ const todosInfoprodutos = [
         preco_atual_decimal: ',99',
         preco_antigo: 30.00,
         desconto_off: '13% OFF',
-        parcelamento: '3x de R$ 8,67',
+        parcelamento: '3x de R$ 8,67 sem juros',
         cores: '',
         formato: '',
         categoria: 'tudo, todos os infoprodutos, ebooks, desenvolvimento pessoal, livro digital, manual eletrônico, crescimento pessoal, motivacional',
