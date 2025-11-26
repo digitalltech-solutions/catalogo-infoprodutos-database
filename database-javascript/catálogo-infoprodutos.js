@@ -108,8 +108,8 @@ const todosInfoprodutos = [
         formato: '',
         categoria: 'tudo, todos os infoprodutos, ebooks, desenvolvimento pessoal, livro digital, manual eletrônico, crescimento pessoal, motivacional',
         palavras_chave_livro: '',
-        pagina_vendas: '',
-        secao_comentario: '',
+        pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/ebook-aprendizagem.html',
+        secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/ebook-aprendizagem.html#comentarios',
         outros: ''
     }
 ];
