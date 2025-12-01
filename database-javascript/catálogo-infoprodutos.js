@@ -119,7 +119,7 @@ const todosInfoprodutos = [
         preco_atual: '47',
         preco_atual_decimal: ',99',
         preco_antigo: 80.00,
-        desconto_off: '13% OFF',
+        desconto_off: '40% OFF',
         parcelamento: '6x de R$ 7,99 sem juros',
         cores: '',
         formato: '',
