@@ -115,18 +115,18 @@ const todosInfoprodutos = [
     {
         id: 6,
         imagem: 'https://digitalltech-solutions.github.io/infoprodutos-imagens/capas-imagens/pessoas-estudandos/capa-pack-imagens-um.png',
-        nome: 'Pack de Imagens de Pessoas Estudando',
-        preco_atual: '25',
+        nome: 'Pacote de Imagens de Imagens de Pessoas Estudando',
+        preco_atual: '47',
         preco_atual_decimal: ',99',
-        preco_antigo: 30.00,
+        preco_antigo: 80.00,
         desconto_off: '13% OFF',
-        parcelamento: '3x de R$ 8,67 sem juros',
+        parcelamento: '6x de R$ 7,99 sem juros',
         cores: '',
         formato: '',
-        categoria: 'tudo, todos os infoprodutos, ebooks, desenvolvimento pessoal, livro digital, manual eletrônico, crescimento pessoal, motivacional',
+        categoria: '',
         palavras_chave_livro: '',
-        pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/ebook-aprendizagem.html',
-        secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/ebook-aprendizagem.html#comentarios',
+        pagina_vendas: '',
+        secao_comentario: '',
         outros: ''
     }
 ];
