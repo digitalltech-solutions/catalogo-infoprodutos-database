@@ -115,7 +115,7 @@ const todosInfoprodutos = [
     {
         id: 6,
         imagem: 'https://digitalltech-solutions.github.io/infoprodutos-imagens/capas-imagens/pessoas-estudandos/capa-pack-imagens-um.png',
-        nome: 'Pacote de Imagens de Imagens de Pessoas Estudando',
+        nome: 'Pacote de Imagens de Pessoas Estudando',
         preco_atual: '47',
         preco_atual_decimal: ',99',
         preco_antigo: 80.00,
