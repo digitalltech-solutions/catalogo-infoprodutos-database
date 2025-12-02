@@ -125,8 +125,8 @@ const todosInfoprodutos = [
         formato: '',
         categoria: '',
         palavras_chave_livro: '',
-        pagina_vendas: '',
-        secao_comentario: '',
+        pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/pacote-imagens-um.html',
+        secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/pacote-imagens-um.html#comentarios',
         outros: ''
     }
 ];
