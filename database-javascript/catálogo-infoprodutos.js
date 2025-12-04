@@ -123,7 +123,7 @@ const todosInfoprodutos = [
         parcelamento: '6x de R$ 7,99 sem juros',
         cores: '',
         formato: '',
-        categoria: '',
+        categoria: 'tudo, todos os infoprodutos, pacotes de imagens',
         palavras_chave_livro: '',
         pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/pacote-imagens-um.html',
         secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/pacote-imagens-um.html#comentarios',
