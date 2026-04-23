@@ -128,6 +128,23 @@ const todosInfoprodutos = [
         pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/pacote-imagens-um.html',
         secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/pacote-imagens-um.html#comentarios',
         outros: ''
+    },
+    {
+        id: 7,
+        imagem: 'https://digitalltech-solutions.github.io/infoprodutos-imagens/capas-imagens/pessoas-estudandos/capa-pack-imagens-um.png',
+        nome: 'Pacote de Imagens de Pessoas Estudando',
+        preco_atual: '47',
+        preco_atual_decimal: ',99',
+        preco_antigo: 80.00,
+        desconto_off: '40% OFF',
+        parcelamento: '6x de R$ 7,99 sem juros',
+        cores: 'amarelo, preto, dourado, branco',
+        formato: '.jpgs, .jpegs, .pngs',
+        categoria: 'tudo, todos os infoprodutos, pacotes de imagens',
+        palavras_chave_livro: 'pacote, imagens, pessoas, estudos, estudando, fotos, estudantes, aprendizado, educação, estudo, material, recurso, visual, acadêmico, escolar, universitário, jovem, leitura, concentração, conhecimento',
+        pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/pacote-imagens-um.html',
+        secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/pacote-imagens-um.html#comentarios',
+        outros: ''
     }
 ];
 
