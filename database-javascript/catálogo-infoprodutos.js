@@ -142,8 +142,8 @@ const todosInfoprodutos = [
         formato: '',
         categoria: 'pacote de vídeos',
         palavras_chave_livro: 'pacote, imagens, pessoas, estudos, estudando, fotos, estudantes, aprendizado, educação, estudo, material, recurso, visual, acadêmico, escolar, universitário, jovem, leitura, concentração, conhecimento',
-        pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/pacote-imagens-um.html',
-        secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/pacote-imagens-um.html#comentarios',
+        pagina_vendas: '',
+        secao_comentario: '',
         outros: ''
     }
 ];
