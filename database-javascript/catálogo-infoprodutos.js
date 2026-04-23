@@ -132,7 +132,7 @@ const todosInfoprodutos = [
     {
         id: 7,
         imagem: 'https://digitalltech-solutions.github.io/infoprodutos-imagens/capas-videos/pack-de-videos-informatica/mockup-infoproduto.png',
-        nome: 'Pack de Vídeos de Informática',
+        nome: 'Pacote de Vídeos de Informática',
         preco_atual: '00',
         preco_atual_decimal: ',00',
         preco_antigo: 0.00,
