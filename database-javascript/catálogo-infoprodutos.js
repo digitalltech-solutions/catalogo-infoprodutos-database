@@ -140,7 +140,7 @@ const todosInfoprodutos = [
         parcelamento: '0x de R$ 0,00 sem juros',
         cores: '',
         formato: '',
-        categoria: 'tudo, todos os infoprodutos, pacotes em vídeos',
+        categoria: 'tudo, todos os infoprodutos, pacotes em vídeos, videos',
         palavras_chave_livro: 'pacote, imagens, pessoas, estudos, estudando, fotos, estudantes, aprendizado, educação, estudo, material, recurso, visual, acadêmico, escolar, universitário, jovem, leitura, concentração, conhecimento',
         pagina_vendas: '',
         secao_comentario: '',
