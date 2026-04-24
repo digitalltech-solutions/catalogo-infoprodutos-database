@@ -132,7 +132,7 @@ const todosInfoprodutos = [
     {
         id: 7,
         imagem: 'https://digitalltech-solutions.github.io/infoprodutos-imagens/capas-videos/pack-de-videos-informatica/mockup-infoproduto.png',
-        nome: 'Pacote de Vídeos de Informática',
+        nome: 'Pacote em Vídeos de Serviços de Informática',
         preco_atual: '00',
         preco_atual_decimal: ',00',
         preco_antigo: 0.00,
@@ -140,7 +140,7 @@ const todosInfoprodutos = [
         parcelamento: '0x de R$ 0,00 sem juros',
         cores: '',
         formato: '',
-        categoria: 'tudo, todos os infoprodutos, pacotes de vídeos',
+        categoria: 'tudo, todos os infoprodutos, pacotes em vídeos',
         palavras_chave_livro: 'pacote, imagens, pessoas, estudos, estudando, fotos, estudantes, aprendizado, educação, estudo, material, recurso, visual, acadêmico, escolar, universitário, jovem, leitura, concentração, conhecimento',
         pagina_vendas: '',
         secao_comentario: '',
