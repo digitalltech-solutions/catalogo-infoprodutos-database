@@ -145,6 +145,23 @@ const todosInfoprodutos = [
         pagina_vendas: '',
         secao_comentario: '',
         outros: ''
+    },
+    {
+        id: 8,
+        imagem: 'https://digitalltech-solutions.github.io/infoprodutos-imagens/capas-videos/pack-de-videos-informatica/mockup-infoproduto-um.png',
+        nome: 'Sistema de Planilha Financeira Completa',
+        preco_atual: '00',
+        preco_atual_decimal: ',00',
+        preco_antigo: 0.0,
+        desconto_off: '3,45% OFF',
+        parcelamento: '6x de R$ 11,66 sem juros',
+        cores: '',
+        formato: '',
+        categoria: 'tudo, todos os infoprodutos, pacotes em vídeos, videos',
+        palavras_chave_livro: '',
+        pagina_vendas: '',
+        secao_comentario: '',
+        outros: ''
     }
 ];
 
