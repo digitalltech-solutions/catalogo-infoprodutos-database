@@ -141,7 +141,7 @@ const todosInfoprodutos = [
         cores: 'verde claro, preto, branco, branca',
         formato: 'mp4., mp3., jpg',
         categoria: 'tudo, todos os infoprodutos, pacotes em vídeos, videos',
-        palavras_chave_livro: 'pack, R$ 69,99, ',
+        palavras_chave_livro: 'pack, R$ 69,99,',
         pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/pacote-videos-um.html',
         secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/pacote-videos-um.html#comentarios',
         outros: ''
