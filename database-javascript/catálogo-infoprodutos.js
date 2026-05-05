@@ -138,10 +138,10 @@ const todosInfoprodutos = [
         preco_antigo: 72.50,
         desconto_off: '3,45% OFF',
         parcelamento: '6x de R$ 11,66 sem juros',
-        cores: '',
-        formato: '',
+        cores: 'verde claro, preto, branco, branca',
+        formato: 'mp4., mp3., jpg',
         categoria: 'tudo, todos os infoprodutos, pacotes em vídeos, videos',
-        palavras_chave_livro: '',
+        palavras_chave_livro: 'pack, R$ 69,99, ',
         pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/pacote-videos-um.html',
         secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/pacote-videos-um.html#comentarios',
         outros: ''
