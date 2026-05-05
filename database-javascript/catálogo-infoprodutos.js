@@ -142,8 +142,8 @@ const todosInfoprodutos = [
         formato: '',
         categoria: 'tudo, todos os infoprodutos, pacotes em vídeos, videos',
         palavras_chave_livro: '',
-        pagina_vendas: '',
-        secao_comentario: '',
+        pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/pacote-videos-um.html',
+        secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/pacote-videos-um.html#comentarios',
         outros: ''
     },
     {
