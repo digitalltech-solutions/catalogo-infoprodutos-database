@@ -149,7 +149,7 @@ const todosInfoprodutos = [
     // {
     //     id: 8,
     //     imagem: 'https://digitalltech-solutions.github.io/infoprodutos-imagens/capas-videos/pack-de-videos-informatica/mockup-infoproduto-um.png',
-    //     nome: 'Sistema de Planilha Financeira Completa',
+    //     nome: 'Sistema Financeira Pessoal em Excel',
     //     preco_atual: '00',
     //     preco_atual_decimal: ',00',
     //     preco_antigo: 0.0,
