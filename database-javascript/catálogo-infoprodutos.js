@@ -156,7 +156,7 @@ const todosInfoprodutos = [
         desconto_off: '11,5% OFF',
         parcelamento: '3x de R$ 9,99 sem juros',
         cores: 'verde, azul escuro',
-        formato: '.xlsx',
+        formato: '.xlsx, excel',
         categoria: 'tudo, todos os infoprodutos, sistemas excel',
         palavras_chave_livro: '',
         pagina_vendas: '',
