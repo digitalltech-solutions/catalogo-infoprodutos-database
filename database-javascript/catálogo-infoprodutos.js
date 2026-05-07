@@ -154,7 +154,7 @@ const todosInfoprodutos = [
         preco_atual_decimal: ',99',
         preco_antigo: 34.00,
         desconto_off: '11,5% OFF',
-        parcelamento: '3x de R$ 9,99 sem juros',
+        parcelamento: '4x de R$ 7,50 sem juros',
         cores: 'verde, azul escuro',
         formato: '.xlsx, excel',
         categoria: 'tudo, todos os infoprodutos, sistemas excel',
