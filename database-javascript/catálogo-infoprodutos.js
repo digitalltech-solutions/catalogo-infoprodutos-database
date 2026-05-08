@@ -148,7 +148,7 @@ const todosInfoprodutos = [
     },
     {
         id: 8,
-        imagem: 'https://digitalltech-solutions.github.io/infoprodutos-imagens/capas-videos/pack-de-videos-informatica/mockup-infoproduto-um.png',
+        imagem: 'https://digitalltech-solutions.github.io/infoprodutos-imagens/capas-excel/sistema-excel-um/mockup-infoproduto-um.png',
         nome: 'Sistema Pessoal Financeiro Completo no Excel',
         preco_atual: '29',
         preco_atual_decimal: ',99',
