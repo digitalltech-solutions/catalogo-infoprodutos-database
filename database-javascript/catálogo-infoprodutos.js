@@ -155,12 +155,12 @@ const todosInfoprodutos = [
         preco_antigo: 34.00,
         desconto_off: '11,5% OFF',
         parcelamento: '4x de R$ 7,50 sem juros',
-        cores: 'verde, azul escuro',
+        cores: 'verde, azul escuro, branco, preto',
         formato: '.xlsx, excel',
         categoria: 'tudo, todos os infoprodutos, sistemas excel',
-        palavras_chave_livro: '',
-        pagina_vendas: '',
-        secao_comentario: '',
+        palavras_chave_livro: 'planilhas, dinheiro',
+        pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/sistema-excel-um.html',
+        secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/sistema-excel-um.html#comentarios',
         outros: ''
     }
 ];
