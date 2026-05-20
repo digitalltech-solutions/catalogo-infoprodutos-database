@@ -41,7 +41,6 @@ const todosInfoprodutos = [
         secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/ebook-comunicacao-oral.html#comentarios',
         outros: ''
     },
-    
     {
         id: 2,
         imagem: 'https://digitalltech-solutions.github.io/infoprodutos-imagens/capas-websites/portfolio-medico-um/mockup-website-portmedico-um.png',
@@ -59,7 +58,6 @@ const todosInfoprodutos = [
         secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/portfolio-medico.html#comentarios',
         outros: ''
     },
-
     {
         id: 3,
         imagem: 'https://digitalltech-solutions.github.io/infoprodutos-imagens/capas-ebooks/ebook-disciplina-invencivel/capa-disciplina.png',
@@ -77,7 +75,6 @@ const todosInfoprodutos = [
         secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/ebook-disciplina.html#comentarios',
         outros: ''
     },
-
     {
         id: 4,
         imagem: 'https://digitalltech-solutions.github.io/infoprodutos-imagens/capas-websites/portfolio-advogado-um/mockup-website-juridico-um.png',
@@ -164,22 +161,19 @@ const todosInfoprodutos = [
         outros: ''
     }
 ];
-
 const containerPai = document.getElementById('secao-cards-infoprodutos');
-
-// Função para destacar trecho encontrado
+const CARDS_INICIAIS_INFO = 14;
+const CARDS_POR_PASSO_INFO = 7;
+let totalVisiveisInfo = CARDS_INICIAIS_INFO;
+let listaAtualInfo = [];
 function destacarTexto(texto, busca) {
     if (!busca) return texto;
-    // Escapa caracteres especiais para evitar erros na regex
     const buscaEscapada = busca.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     const regex = new RegExp(buscaEscapada, 'gi');
     return texto.replace(regex, match => `<span style="font-weight:bold; color:#004aad;">${match}</span>`);
 }
-
-function renderizarProdutos(produtos, textoBusca = '') {
-    containerPai.innerHTML = ''; // Limpa antes de renderizar
-    produtos.sort((a, b) => b.id - a.id).forEach(produto => {
-        containerPai.innerHTML += `
+function gerarCardInfoHTML(produto, textoBusca) {
+    return `
         <div class="estilo-padrao-cards-infoprodutos elementos-fundo-borda">
             <div>
                 <img src="${produto.imagem}" alt="capa-infoprodutos" class="estilo-padrao-capas-imagens">
@@ -223,13 +217,67 @@ function renderizarProdutos(produtos, textoBusca = '') {
             </div>
         </div>
         `;
-    });
 }
-
+function renderizarProdutos(produtos, textoBusca = '') {
+    listaAtualInfo = produtos.sort((a, b) => b.id - a.id);
+    totalVisiveisInfo = CARDS_INICIAIS_INFO;
+    renderizarVisiveisInfo(textoBusca);
+}
+function renderizarVisiveisInfo(textoBusca = '') {
+    containerPai.innerHTML = '';
+    const fatia = listaAtualInfo.slice(0, totalVisiveisInfo);
+    fatia.forEach(produto => {
+        containerPai.innerHTML += gerarCardInfoHTML(produto, textoBusca);
+    });
+    const temMais = totalVisiveisInfo < listaAtualInfo.length;
+    const temMenos = totalVisiveisInfo > CARDS_INICIAIS_INFO;
+    if (temMais || temMenos) {
+        let botoesHTML = '<div id="controles-paginacao-info">';
+        if (temMenos) {
+            botoesHTML += `<button id="btn-mostrar-menos-info" onclick="mostrarMenosInfo()">Mostrar Menos</button>`;
+        }
+        if (temMais) {
+            botoesHTML += `<button id="btn-mostrar-mais-info" onclick="mostrarMaisInfo()">Mostrar Mais</button>`;
+        }
+        botoesHTML += '</div>';
+        containerPai.innerHTML += botoesHTML;
+    }
+}
+function mostrarMaisInfo() {
+    totalVisiveisInfo += CARDS_POR_PASSO_INFO;
+    if (totalVisiveisInfo > listaAtualInfo.length) totalVisiveisInfo = listaAtualInfo.length;
+    renderizarVisiveisInfo();
+    reaplicarModosInfo();
+}
+function mostrarMenosInfo() {
+    totalVisiveisInfo -= CARDS_POR_PASSO_INFO;
+    if (totalVisiveisInfo < CARDS_INICIAIS_INFO) totalVisiveisInfo = CARDS_INICIAIS_INFO;
+    renderizarVisiveisInfo();
+    reaplicarModosInfo();
+}
+function reaplicarModosInfo() {
+    let caixa1 = document.getElementById('caixa-dark');
+    let caixa2 = document.getElementById('caixa-dark-dois');
+    if(caixa1.checked == true || caixa2.checked == true){
+        eventoModoDarkDois();
+        eventoModoDark();
+    }
+    if(window.document.getElementById('dislexia').checked == true){
+        eventoModoDislexia();
+    }
+    if(window.document.getElementById('deuteranopia').checked == true){
+        eventoModoDeuteranopia();
+    }
+    if(window.document.getElementById('tritanopia').checked == true){
+        eventoModoTritanopia();
+    }
+    if(window.document.getElementById('voz').checked == true){
+        eventoModoVoz();
+    }
+}
 function eventoBarraPesquisa() {
     const textoBusca = document.getElementById('estilo-input-pesquisa').value.toLowerCase().trim();
     const palavrasBusca = textoBusca.split(/\s+/).filter(p => p.length > 0);
-
     const produtosFiltrados = todosInfoprodutos.filter(produto => {
         const camposParaBuscar = [
             produto.nome,
@@ -243,63 +291,45 @@ function eventoBarraPesquisa() {
             produto.palavras_chave_livro,
             produto.outros
         ].map(campo => campo.toLowerCase());
-
-        // Verifica se todas as palavras da busca aparecem em pelo menos um dos campos (em qualquer ordem)
-        return palavrasBusca.every(palavra => 
+        return palavrasBusca.every(palavra =>
             camposParaBuscar.some(campo => campo.includes(palavra))
         );
     });
-
     renderizarProdutos(produtosFiltrados, textoBusca);
-
     if(window.document.getElementById('estilo-input-pesquisa').value.length > 0){
         window.document.getElementById('carrossel').style.display = 'none'
     } else {
         window.document.getElementById('carrossel').style.display = 'flex'
     }
-
     // Função Dark
-
     let caixa1 = document.getElementById('caixa-dark');
     let caixa2 = document.getElementById('caixa-dark-dois');
-
     if(caixa1.checked == true || caixa2.checked == true){
         eventoModoDarkDois()
         eventoModoDark()
     }
-
     // Função Dislexia
-
     if(window.document.getElementById('dislexia').checked == true){
         eventoModoDislexia()
     }
-
     // Função Deuteranopia
-
     if(window.document.getElementById('deuteranopia').checked == true){
         eventoModoDeuteranopia()
     }
-
     // Função Tritanopia
-
     if(window.document.getElementById('tritanopia').checked == true){
         eventoModoTritanopia()
     }
-
     // Função Leitura Alta
-
     if(window.document.getElementById('voz').checked == true){
         eventoModoVoz()
     }
 }
-
 // Renderiza inicialmente todos os produtos
 renderizarProdutos(todosInfoprodutos);
-
 function eventoBarraPesquisaMobile() {
     const textoBusca = document.getElementById('barra-pesquisa-mobile').value.toLowerCase().trim();
     const palavrasBusca = textoBusca.split(/\s+/).filter(p => p.length > 0);
-
     const produtosFiltrados = todosInfoprodutos.filter(produto => {
         const camposParaBuscar = [
             produto.nome,
@@ -313,23 +343,17 @@ function eventoBarraPesquisaMobile() {
             produto.palavras_chave_livro,
             produto.outros
         ].map(campo => campo.toLowerCase());
-
-        // Verifica se todas as palavras da busca aparecem em pelo menos um dos campos (em qualquer ordem)
-        return palavrasBusca.every(palavra => 
+        return palavrasBusca.every(palavra =>
             camposParaBuscar.some(campo => campo.includes(palavra))
         );
     });
-
     renderizarProdutos(produtosFiltrados, textoBusca);
-
     let caixa1 = document.getElementById('caixa-dark');
     let caixa2 = document.getElementById('caixa-dark-dois');
-
     if(caixa1.checked == true || caixa2.checked == true){
         eventoModoDarkDois();
         eventoModoDark();
     }
 }
-
 // Renderiza inicialmente todos os produtos
 renderizarProdutos(todosInfoprodutos);
