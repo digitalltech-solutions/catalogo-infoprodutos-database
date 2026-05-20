@@ -162,7 +162,7 @@ const todosInfoprodutos = [
     }
 ];
 const containerPai = document.getElementById('secao-cards-infoprodutos');
-const CARDS_INICIAIS_INFO = 14;
+const CARDS_INICIAIS_INFO = 7;
 const CARDS_POR_PASSO_INFO = 7;
 let totalVisiveisInfo = CARDS_INICIAIS_INFO;
 let listaAtualInfo = [];
