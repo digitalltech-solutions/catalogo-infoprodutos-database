@@ -234,10 +234,10 @@ function renderizarVisiveisInfo(textoBusca = '') {
     if (temMais || temMenos) {
         let botoesHTML = '<div id="controles-paginacao-info">';
         if (temMenos) {
-            botoesHTML += `<button class="estilo-botao-padrao estilo-botao-dark-um" id="btn-mostrar-menos-info" onclick="mostrarMenosInfo()">Mostrar Menos</button>`;
+            botoesHTML += `<button class="estilo-botao-padrao estilo-botao-dark-um" id="btn-mostrar-menos-info" onclick="mostrarMenosInfo()">MOSTRAR MAIS</button>`;
         }
         if (temMais) {
-            botoesHTML += `<button class="estilo-botao-padrao estilo-botao-dark-um" id="btn-mostrar-mais-info" onclick="mostrarMaisInfo()">Mostrar Mais</button>`;
+            botoesHTML += `<button class="estilo-botao-padrao estilo-botao-dark-um" id="btn-mostrar-mais-info" onclick="mostrarMaisInfo()">MOSTRAR MENOS</button>`;
         }
         botoesHTML += '</div>';
         containerPai.innerHTML += botoesHTML;
