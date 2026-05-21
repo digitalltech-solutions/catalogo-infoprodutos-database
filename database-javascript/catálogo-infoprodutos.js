@@ -39,6 +39,7 @@ const todosInfoprodutos = [
         palavras_chave_livro: 'falar em público, apresentação, fala, expressão de discurso técnicas oratória eficaz, linguagem',
         pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/ebook-comunicacao-oral.html',
         secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/ebook-comunicacao-oral.html#comentarios',
+        compartilhar: 'https://wa.me/?text=%F0%9F%9A%80%20Confira%20este%20infoproduto%20incr%C3%ADvel%20da%20DigitallTech!%0A%0AAcesse%20agora%3A%0Ahttps%3A%2F%2Fpay.hotmart.com%2FJ102868989T%3Fbid%3D1762818993052',
         outros: ''
     },
     {
@@ -56,6 +57,7 @@ const todosInfoprodutos = [
         palavras_chave_livro: 'médico, médica, médicos, médicas, medicina, clínica online, saúde',
         pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/portfolio-medico.html',
         secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/portfolio-medico.html#comentarios',
+        compartilhar: 'https://wa.me/?text=%F0%9F%9A%80%20Confira%20este%20infoproduto%20incr%C3%ADvel%20da%20DigitallTech!%0A%0AAcesse%20agora%3A%0Ahttps://pay.hotmart.com/V102926478C?bid=1763135616029',
         outros: ''
     },
     {
@@ -73,6 +75,7 @@ const todosInfoprodutos = [
         palavras_chave_livro: 'autocontrole, foco, produtividade, persistência, controle, determinação, compromissos hábitos, rotina, mentalidade vencedora, superação, metas, sucesso, força de vontade, autodisciplina, transformação de vida, mindset, motivação diária',
         pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/ebook-disciplina.html',
         secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/ebook-disciplina.html#comentarios',
+        compartilhar: 'https://wa.me/?text=%F0%9F%9A%80%20Confira%20este%20infoproduto%20incr%C3%ADvel%20da%20DigitallTech!%0A%0AAcesse%20agora%3A%0Ahttps://pay.hotmart.com/W103038972G',
         outros: ''
     },
     {
@@ -90,6 +93,7 @@ const todosInfoprodutos = [
         palavras_chave_livro: 'portfólio advogado, presença digital direito, marketing jurídico, vitrine profissional advocacia, site escritório, portfólio consultoria jurídica, credibilidade online advogado, modelo web advogado',
         pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/portfolio-juridico.html',
         secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/portfolio-juridico.html#comentarios',
+        compartilhar: 'https://wa.me/?text=%F0%9F%9A%80%20Confira%20este%20infoproduto%20incr%C3%ADvel%20da%20DigitallTech!%0A%0AAcesse%20agora%3A%0Ahttps://pay.hotmart.com/M103040017H?bid=1763670213918',
         outros: ''
     },
     {
@@ -107,6 +111,7 @@ const todosInfoprodutos = [
         palavras_chave_livro: '',
         pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/ebook-aprendizagem.html',
         secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/ebook-aprendizagem.html#comentarios',
+        compartilhar: 'https://wa.me/?text=%F0%9F%9A%80%20Confira%20este%20infoproduto%20incr%C3%ADvel%20da%20DigitallTech!%0A%0AAcesse%20agora%3A%0Ahttps://pay.hotmart.com/M103040017H?bid=1763670213918',
         outros: ''
     },
     {
@@ -124,6 +129,7 @@ const todosInfoprodutos = [
         palavras_chave_livro: 'pacote, imagens, pessoas, estudos, estudando, fotos, estudantes, aprendizado, educação, estudo, material, recurso, visual, acadêmico, escolar, universitário, jovem, leitura, concentração, conhecimento',
         pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/pacote-imagens-um.html',
         secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/pacote-imagens-um.html#comentarios',
+        compartilhar: 'https://wa.me/?text=%F0%9F%9A%80%20Confira%20este%20infoproduto%20incr%C3%ADvel%20da%20DigitallTech!%0A%0AAcesse%20agora%3A%0Ahttps://pay.hotmart.com/J103201940W?bid=1779365399962',
         outros: ''
     },
     {
@@ -141,6 +147,7 @@ const todosInfoprodutos = [
         palavras_chave_livro: 'pack, R$ 69,99,',
         pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/pacote-videos-um.html',
         secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/pacote-videos-um.html#comentarios',
+        compartilhar: 'https://wa.me/?text=%F0%9F%9A%80%20Confira%20este%20infoproduto%20incr%C3%ADvel%20da%20DigitallTech!%0A%0AAcesse%20agora%3A%0Ahttps://pay.hotmart.com/R105694964T?bid=1777993991529',
         outros: ''
     },
     {
@@ -158,6 +165,7 @@ const todosInfoprodutos = [
         palavras_chave_livro: 'planilhas, dinheiro',
         pagina_vendas: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/sistema-excel-um.html',
         secao_comentario: 'https://digitalltech-solutions.github.io/landpages-infoprodutos/p%C3%A1ginas-html/sistema-excel-um.html#comentarios',
+        compartilhar: 'https://wa.me/?text=%F0%9F%9A%80%20Confira%20este%20infoproduto%20incr%C3%ADvel%20da%20DigitallTech!%0A%0AAcesse%20agora%3A%0Ahttps://pay.hotmart.com/X105734954G',
         outros: ''
     }
 ];
@@ -207,7 +215,7 @@ function gerarCardInfoHTML(produto, textoBusca) {
                         <div id="configurar-icones-interativos">
                             <span class="material-symbols-outlined configurar-icones-padrao estilo-botao-dark-dois" onclick="eventoModalIndisponivel()" title="Marcar como Favorito">favorite</span>
     <span class="material-symbols-outlined configurar-icones-padrao estilo-botao-dark-dois" onclick="window.location = '${produto.secao_comentario}'" title="Comentar Sobre Esse Infoproduto">chat</span>
-                            <span class="material-symbols-outlined configurar-icones-padrao estilo-botao-dark-dois" onclick="eventoModalIndisponivel()" title="Compartilhar">send</span>
+                            <span class="material-symbols-outlined configurar-icones-padrao estilo-botao-dark-dois" onclick="window.location = '${produto.compartilhar}'" title="Compartilhar">send</span>
                         </div>
                         <a href="${produto.pagina_vendas}" class="configuracao-padra-botao-saiba-mais">
                             <button class='elementos-fundo-borda'>Comprar</button>
